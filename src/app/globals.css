@@ -26,17 +26,60 @@ body {
   }
 }
 
-.react-calendar{
+.react-calendar {
   width: 100% !important;
-  border:none !important;
+  border: none !important;
   font-family: "Inter", sans-serif !important;
 }
 
-.react-calendar__navigation__label__labelText{
+.react-calendar__navigation__label__labelText {
   font-weight: 600;
 }
 
-.react-calendar__tile--active{
+.react-calendar__tile--active {
   background-color: #C3EBFA !important;
-  color:black !important;
+  color: black !important;
+}
+
+/* Styles for react-big-calendar */
+.rbc-calendar {
+  background-color: var(--background);
+  border: none;
+}
+
+.rbc-toolbar {
+  background-color: var(--background);
+  border: none;
+}
+
+.rbc-toolbar button {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.rbc-toolbar .rbc-btn-group {
+  margin-bottom: 10px;
+}
+
+.rbc-header {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-weight: 600;
+  border-bottom: 2px solid var(--foreground);
+}
+
+.rbc-event {
+  background-color: #C3EBFA; /* Light blue for events */
+  border: none;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.rbc-event:hover {
+  background-color: #A8D8E6; /* Darker blue on hover */
+}
+
+.rbc-day-slot {
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
