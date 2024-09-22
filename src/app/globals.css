@@ -61,19 +61,45 @@ body {
   margin-bottom: 10px;
 }
 
-.rbc-header {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-weight: 600;
-  border-bottom: 2px solid var(--foreground);
+.rbc-time-content{
+  border: none !important;
+}
+
+.rbc-time-gutter.rbc-time-column{
+  font-size: 12px !important;
+}
+
+.rbc-btn-group:first-child{
+  display: none !important;
+}
+
+.rbc-toolbar-label{
+  padding: 0px 20px !important;
+  text-align: right !important;
+}
+
+.rbc-btn-group:last-child{
+  font-size: 13px !important;
+}
+
+.rbc-btn-group:last-child button{
+  border: none !important;
+  background-color:  #f1f0ff !important;
+  margin-left: 2px !important;
 }
 
 .rbc-event {
-  background-color: #C3EBFA; /* Light blue for events */
   border: none;
   color: black;
-  padding: 5px;
-  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 99%;
+}
+
+.rbc-event-label{
+  color:gray !important;
+  margin-bottom: 5px !important;
+
 }
 
 .rbc-event:hover {
@@ -82,4 +108,36 @@ body {
 
 .rbc-day-slot {
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.rbc-event:nth-child(1) {
+  background-color: #b3e6ff !important; /* Daha koyu mavi */
+}
+
+.rbc-event:nth-child(2) {
+  background-color: #f9f5c8 !important; /* Daha koyu sarı */
+}
+
+.rbc-event:nth-child(3) {
+  background-color: #d9d6ff !important; /* Daha koyu mor */
+}
+
+.rbc-event:nth-child(4) {
+  background-color: #f9c2e8 !important; /* Daha koyu pembe */
+}
+
+.rbc-event:nth-child(5) {
+  background-color: #b3e6ff !important; /* Daha koyu mavi */
+}
+
+.rbc-event:nth-child(6) {
+  background-color: #f9f5c8 !important; /* Daha koyu sarı */
+}
+
+.rbc-event:nth-child(7) {
+  background-color: #d9d6ff !important; /* Daha koyu mor */
+}
+
+.rbc-event:nth-child(8) {
+  background-color: #f9c2e8 !important; /* Daha koyu pembe */
 }
